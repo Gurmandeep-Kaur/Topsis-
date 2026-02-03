@@ -19,8 +19,8 @@ def valid_email(email):
 
 
 def send_email(receiver_email, attachment_path):
-    sender_email = "gurmankaur5114@gmail.com"
-    sender_password = "wsax ggzh fiww igog"
+    sender_email = "your_email"
+    sender_password = "your_app_password"
 
     msg = EmailMessage()
     msg["Subject"] = "TOPSIS Result File"
